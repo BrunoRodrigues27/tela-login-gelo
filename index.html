@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <form action="login.php" method="post" autocomplete="on">
+            <h1>LOGIN</h1>
+            <div id="caixas-input">
+                <div id="caixa-emaii">
+                    <i class="material-symbols-outlined">
+                        boy
+                    </i>
+                    <input type="email" name="email" id="iemail" placeholder="Email..." required minlength="30">                    
+                </div>
+                <div id="caixa-senha">
+                    <i class="material-symbols-outlined">
+                        vpn_key
+                    </i>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha..." required minlength="8">
+                </div>
+            </div>
+            <div id="caixa-lembrar-esqueceu">
+                <div id="lembrar">
+                    <label for="ilembrar">Lembrar senha?</label>
+                    <input type="checkbox" name="lembrar" id="ilembrar">                  
+                </div>
+                <div id="barra">
+                    <img src="imagens/barra-vertical.png" alt="">
+                </div>
+                <div id="esqueceu">
+                    <a href="#">esqueceu a senha?</a>
+                </div>
+                <i class="material-symbols-outlined">
+                    outgoing_mail
+                </i>
+            </div>
+            <div id="botoes">
+                <div id="entrar">
+                    <input type="submit" value="ENTRAR">
+                </div>
+                <div id="criar">
+                    <a href="#">Criar uma conta</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
